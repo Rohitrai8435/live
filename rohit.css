@@ -1,0 +1,359 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+   background-color: #f8f8f8;
+}
+#main #center{
+    position: absolute;
+  
+    
+    height: 100%;
+    width: 85%;
+    border-radius: 8px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color:#EEEEEE;}
+#nav{
+    margin-top: 20px;
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+    z-index: 9999;
+     /* background-color: brown; */
+} 
+#callecta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+#callecta #ic{
+    padding: 3px;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+}
+#callecta h3{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+#link {
+    display: flex;
+    text-decoration: none;
+    gap: 40px;
+    font-family: "gilroy";
+
+}
+#link #home{
+    
+    font-weight: 600;
+    position: relative;
+    opacity:1;
+   
+
+}
+#home #line{
+    
+    position: absolute;
+    margin-top: 3px;
+    left: 36%;
+    height: 2px;
+    width: 16px;
+    background-color: black;
+    
+    
+    
+}
+#link #home span h3{
+    opacity: 1;
+}
+
+#link h3{
+    opacity: 0.4;
+}
+
+#circle{
+    height: 35px;
+    width: 35px;
+   
+   border-radius: 50%;
+   border: 3px solid  #DCDCDC;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   
+}
+#circle i{
+    font-size: 16px;
+    font-weight: 600;
+}
+#center #left{ 
+    margin-top: 80px;
+    font-family: "gilroy";
+    height: 65%;
+    width: 50%;
+    position:absolute ;
+    /* background-color: blue; */
+    
+
+
+}
+#left h1{
+   padding-top: 50px;
+    font-size: 80px;
+}
+#left #input{
+    
+   margin-top: 50px;
+    height: 50px;
+    width: 80%;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+#left p{
+    margin-top: 30px;
+}
+#input #mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+#input input{
+    font-family: "gilroy";
+    border: none;
+    background-color: transparent;
+}
+#input button{
+    padding:12px 20px;
+    border-radius: 25px;
+    background-color: black;
+    color:white;
+    font-weight: 600;
+    
+}
+ #center #right{
+   position: absolute; 
+   margin-top: 115px;
+   right: 0;
+   
+  height: 54%;
+  width: 40%;
+ 
+
+}
+#right #img{
+    position: absolute;
+    height: 385px;
+    width: 330px;
+    right: 0;
+   
+}
+#right #img #img1{
+    position: absolute;
+    height: 390px;
+    width: 300px;
+    right: 0;
+    border-radius: 20px;
+    z-index: 9999;
+   background-color: white;
+    
+
+}
+#img1 #photo1{
+    height: 290px;
+    width: 290px;
+    border-radius: 20px;
+    margin: 5px;
+    background-image: url(https://image.freepik.com/free-vector/cool-monkey-with-glass-cap-mascot-gaming-logo-head_1780-51.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#img1 #ibottum1{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(19, 18, 18);
+}
+
+#right #img #img2{
+    position: absolute;
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+    /* top:-10px; */
+   left: -50px;
+   rotate: -20deg;
+   background-color: white;
+
+}
+#right #img #img2 #photo2
+{
+    height: 200px;
+    width: 240px;
+    border-radius: 10px;
+   
+    margin: 5px;
+    background-image: url(https://image.freepik.com/free-vector/cool-monkey-with-glass-cap-mascot-gaming-logo-head_1780-51.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#img2 #ibottum2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+   
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    background-color: rgb(110, 106, 106);
+}
+#img1 #text2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#img1 #text1 h4{
+    margin: 5px;
+    font-weight: 600;
+    font-family: "gilroy";
+
+}
+#img2 #text2 h4{
+    margin: 5px;
+    font-weight: 600;
+    font-family: "gilroy";
+
+}
+#img1 #text1 h5{
+    margin: 5px;
+    font-weight: 600;
+    font-family: "gilroy";
+    color: #444;
+
+}
+#img2 #text2 h5{
+    margin: 5px;
+    font-weight: 600;
+    font-family: "gilroy";
+    color: #555;
+
+}
+#ibottum1 h6{
+    color:white;
+    /* font-size: 15px; */
+    font-weight: 600;
+    font-family: "gilroy";
+    padding: 5px;
+}
+#ibottum1 h6 span{
+    font-weight: 400;
+}
+#center #style{
+    font-family: "gilroy";
+    width: 100%;
+   
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    bottom: 22%;
+}
+#center #style span h2{
+    opacity: 0.6;
+}
+#center #bimages{
+    height: 150px;
+    width: 100%;
+    /* background-color: black; */
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    bottom: 0;
+}
+#center #bimages {
+    margin-top: 30px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+    /* background-color: black;   */
+}
+#center #bimages .imgs{
+
+margin-top: 25px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    
+    border-bottom-right-radius: 0;
+
+    height: 100px;
+    width: 200px;
+    background-image: url(https://cdn.vectorstock.com/i/1000x1000/68/39/yeti-head-mascot-logo-design-vector-30736839.webp);
+    background-size: cover;
+    background-position: top;
+
+
+
+}
+#center #bimages #one{
+    background-image: url(https://cdn.vectorstock.com/i/preview-1x/59/31/a-ferocious-lion-in-crown-vector-36725931.webp);
+    background-size: cover;
+    background-position: center;
+
+}
+#center #bimages #two{
+    background-image: url(https://cdn.vectorstock.com/i/preview-1x/94/70/warewolf-dark-night-horor-ware-wolf-artwork-vector-27019470.webp);
+    background-size: cover;
+    background-position: top;
+
+}
+#center #bimages #three{
+    background-image: url(https://cdn.vectorstock.com/i/1000x1000/68/39/yeti-head-mascot-logo-design-vector-30736839.webp);
+    background-size: cover;
+    background-position: center;
+
+}
+#center #bimages #four{
+    background-image: url(https://cdn.vectorstock.com/i/preview-1x/60/50/bear-head-mascot-logo-esport-vector-37826050.webp);
+    background-size: cover;
+    background-position: top;
+
+}
+
+
+
+
+
+
+
+
+
